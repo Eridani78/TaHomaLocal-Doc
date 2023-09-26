@@ -14,7 +14,7 @@ Il en résulte un fonctionnement 'cloudless' ou indépendance vis à vis d'Inter
 ## Ecosystème Somfy/TaHoma
 L'écosystème Somfy TaHoma comprend, à ce jour, de nombreux partenaires et est susceptible de continuer à s'étoffer et évoluer.
 Cela signifie qu'une box TaHoma peut s'interfacer à de nombreux dispositifs très différents les uns des autres pour les piloter.
-On trouve actuellement dans l'écosystems Somfy le controle de dispositifs tels que des systèmes de controle d'ouverture ou fermeture d'ouvrants (volets roulants, portes, stores, ...), des systèmes d'alarme, des systemes de chauffage et climatisation, ...
+On trouve actuellement dans l'écosystems Somfy le controle de dispositifs tels que des systèmes de controle d'ouverture ou fermeture d'ouvrants (volets roulants, portes, stores, ...), des systèmes d'alarme, des systèmes de chauffage et climatisation, ...
 
 L'absence de documentation de la part de Somfy sur les commandes des dispositifs rend la syntaxe de ces opérations particulièrement difficile à anticiper et implémenter dans un plugin et ce, à priori.
 
@@ -82,8 +82,8 @@ La configuration du plugin est terminée. Les commandes disponibles peuvent alor
 ## Apps mobiles ou autres
 Dans la mesure ou elles ne sont pas installées sous Jeedom, l'installation et l'utilisation du plugin **TaHomaLocal** n'a pas d'incidence et n'empêche pas l'utilisation des applications dédiées, fournies par Somfy ou par ses partenaires avec les dispositfs de l'écosystem (apps sur téléphone mobiles par exemple).
 
-## Liste des équipements compatibles
-La liste des équipements compatible reconnus par le plugin est tenue à jour dans le changelog du plugin.
+## Liste des équipements enregistrés dans la Base de Données
+La liste des équipements reconnus par le plugin est tenue à jour dans le changelog du plugin.
 Dans cette liste, les composants sont décrits selon leur classification générique Somfy et non par leur marque ou modèle.
 
 ## Routines
