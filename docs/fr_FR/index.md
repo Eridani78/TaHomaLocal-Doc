@@ -84,7 +84,7 @@ Dans la mesure ou elles ne sont pas installées sous Jeedom, l'installation et l
 
 ## Liste des équipements enregistrés dans la Base de Données
 La liste des équipements reconnus par le plugin est tenue à jour dans le changelog du plugin.
-Dans cette liste, les composants sont décrits selon leur classification générique Somfy et non par leur marque ou modèle.
+Dans cette liste, les composants sont décrits selon leur classification générique Somfy et non par leur marque commerciale ou modèle.
 
 ## Routines
 La gestion des routines n'est, jusqu'à présent, pas supportée par l'API locale Somfy.
