@@ -50,8 +50,8 @@ La configuration du plugin nécessite que l'utilisateur saisisse dans la page **
 Le plugin utilise une valeur par défaut pour cette donnée et dans la majorité des cas, l'utilisateur n'aura pas à utiliser ce champ. 
 Pour parer à l'éventualité d'un cas de collision avec le port utilisé par un autre plugin, ce champ pourra être utilisé pour changer le numéro de port utilisé par le plugin **TaHomaLocal**.
 
-#### Mode
-Une case à cocher pour sélectionner le mode "Full", le mode "Smart" étant le mode du plugin par défaut.
+#### Mode plugin
+Sélectionner le mode du plugin. "Le mode "Smart" est le mode du plugin par défaut. "Full" est un mode avancé (voir description ci-dessus).
 
 #### Cron
 Pour un fonctionnement correct du plugin, les crons "cron" et "cron 10" doivent être conservés 'activés'.
