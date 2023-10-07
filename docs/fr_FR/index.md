@@ -1,5 +1,5 @@
 # Plugin **TaHomaLocal**
-<img src="/docs/img/TaHomaLocal-Image.png" alt="Image Logo plugin" style="height: 40%; width:40%;"/> | change=1
+<img src="/docs/assets/images/TaHomaLocal-Image.png" alt="Image Logo plugin" style="height: 40%; width:40%;"/> | change=1
 
 ![TaHomaLocal_image](https://github.com/Eridani78/TaHomaLocal-Doc/docs/assets/images/TaHomaLocal-Image.png) | change=2
 
