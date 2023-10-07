@@ -1,9 +1,10 @@
 # Plugin **TaHomaLocal**
-<img src="/docs/img/TaHomaLocal-Image.png" alt="Image Logo plugin" style="height: 40%; width:40%;"/>
+<img src="/docs/img/TaHomaLocal-Image.png" alt="Image Logo plugin" style="height: 40%; width:40%;"/> | change=1
 
-![TaHomaLocal_image](https://github.com/Eridani78/TaHomaLocal-Doc/blob/main/docs/img/TaHomaLocal-Image.png) | width=80
+![TaHomaLocal_image](https://github.com/Eridani78/TaHomaLocal-Doc/docs/assets/images/TaHomaLocal-Image.png) | change=2
 
-![TaHomaLocal_image](https://github.com/Eridani78/TaHomaLocal-Doc/assets/images/TaHomaLocal-Image.png)
+![Github Pages](https://Eridani78.github.io/TaHomaLocal-Doc/docs/assets/images/TaHomaLocal-Image.png) | change=3
+
 ## Presentation
 Le plugin **TaHomaLocal** est destiné à permettre une interface entre Jeedom et une box Somfy TaHoma (ou box Somfy équivalente éligible) sur laquelle l'API locale Somfy a été activée.
 
