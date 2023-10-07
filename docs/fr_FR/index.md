@@ -1,5 +1,9 @@
 # Plugin **TaHomaLocal**
-<img src="https://github.com/Eridani78/TaHomaLocal-Doc/docs/img/TaHomaLocal-Image.png" alt="Image Logo plugin" style="height: 40%; width:40%;"/>
+<img src="/docs/img/TaHomaLocal-Image.png" alt="Image Logo plugin" style="height: 40%; width:40%;"/>
+
+<div style="width:40% ; height:40%">
+![Employee data](/repository/assets/employee.png?raw=true "Employee Data title")
+<div>
 ![TaHomaLocal_image](https://github.com/Eridani78/TaHomaLocal-Doc/docs/img/TaHomaLocal-Image.png)
 
 ## Presentation
