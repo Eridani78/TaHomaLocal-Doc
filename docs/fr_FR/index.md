@@ -1,6 +1,5 @@
 # Plugin **TaHomaLocal**
-<img src="/docs/assets/images/TaHomaLocal-Image.png" alt="Image Logo plugin" style="height: 40%; width:40%;"/> | ## Presentation
-Le plugin |
+<img src="/docs/assets/images/TaHomaLocal-Image.png" alt="Image Logo plugin" style="height: 40%; width:40%;"/>
 
 
 ## Presentation
