@@ -55,7 +55,7 @@ Sélectionner le mode du plugin. "Le mode "Smart" est le mode du plugin par déf
 
 #### Cron
 Pour un fonctionnement correct du plugin, les crons "cron" et "cron 10" doivent être conservés 'activés'.
-<img src="/docs/img/TaHomaLocal-Configuration_du_plugin-Fonctionnalites.png" alt="Image Configuration_du_plugin-Fonctionnalites" style="height: 50%; width:50%;"/>
+<img src="/docs/assets/images/TaHomaLocal-Configuration_du_plugin-Fonctionnalites.png" alt="Image Configuration_du_plugin-Fonctionnalites" style="height: 50%; width:50%;"/>
 
 ### Etape 3 - Découverte passerelles / Découverte des Boxs compatibles sur le réseau
 Au lancement de cette action, le plugin scrute le réseau à la recherche d'une ou plusieurs boxs Somfy (ou compatible) qui y seraient connectées.
@@ -95,4 +95,4 @@ Dans ce cas, le Daemon redémarrera automatiquement après un temps de resynchro
 Pendant ce temps, certaines commandes peuvent ne plus être opérantes.
 
 ## Evolution de la politique Somfy
-Le concepteur du plugin **TaHomaLocal** ne pourra, en aucun cas et d'aucune manière, être tenu responsable d'une évolution de la politique Somfy qui conduirait à une évolution significative de l'API rendant le plugin inopérant ou à la suppression de l'accès, par Somfy, à l'API locale telle qu'elle a été définie lors de la conception du plugin.
+L'entité Jeedom ainsi que le concepteur du plugin **TaHomaLocal** ne pourront, en aucun cas et d'aucune manière, être tenus responsables d'une évolution de la politique Somfy qui conduirait à une évolution significative de l'API rendant le plugin inopérant ou à la suppression de l'accès, par Somfy, à l'API locale telle qu'elle a été définie lors de la conception du plugin.
