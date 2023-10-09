@@ -1,4 +1,4 @@
-# Changelog plugin template
+# Changelog plugin TaHomaLocal
 
 >**IMPORTANT**
 >
@@ -7,7 +7,7 @@
 # 02/10/2023
 - Edition v1.0.0 beta
 
-- Compatible des équipements :
+# Equipements en Base de Données
 > Alarm
 >- internal:TSKAlarmComponent
 
