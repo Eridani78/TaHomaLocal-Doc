@@ -43,7 +43,13 @@ L'activation de l'API locale doit être réalisée pas l'utilisateur de la box T
 Il n'est pas garanti que tous les modèles de box Somfy acceptent l'activation d'un "mode Développeur". Il revient donc à l'utilisateur de s'assurer que son modèle de box Somfy est compatible de ce mode particulier.
 Il est à noter que les conditions générales et règles Somfy pour le "mode Développeur" s'appliquent également au plugin **TaHomaLocal**.
 
-### Etape 2 - Configuration / Configuration du plugin
+### Etape 2 - Installation du plugin
+
+Une fois installé, réaliser les opérations suivantes :
+	- Dans **Etat** : Activer
+	- Dans **Dépendances** : Lancer
+
+### Etape 3 - Configuration / Configuration du plugin
 #### Identifiants
 La configuration du plugin nécessite que l'utilisateur saisisse dans la page **Configuration du plugin** ses identifiants de connection à son compte Somfy (Email & Mot de Passe).
 
@@ -59,13 +65,13 @@ Pour un fonctionnement correct du plugin, les crons "cron" et "cron 10" doivent 
 <img src="/docs/assets/images/TaHomaLocal-Configuration_du_plugin-Fonctionnalites.png" alt="" style="height: 50%; width:50%;"/>
 <img src="/TaHomaLocal-Doc/assets/images/TaHomaLocal-Configuration_du_plugin-Fonctionnalites.png" alt="Image Configuration_du_plugin-Fonctionnalites" style="height: 50%; width:50%;"/>
 
-### Etape 3 - Découverte passerelles / Découverte des Boxs compatibles sur le réseau
+### Etape 4 - Découverte passerelles / Découverte des Boxs compatibles sur le réseau
 Au lancement de cette action, le plugin scrute le réseau à la recherche d'une ou plusieurs boxs Somfy (ou compatible) qui y seraient connectées.
 Seule la ou les box Somfy ayant l'API locale activée seront reconnues.
 Dans le cas ou plusieurs boxs sont reconnues, Le plugin **TaHomaLocal** permet à l'utilisateur de sélectionner la box qui sera déclarée **passerelle (active)** pour le plugin.
 
 
-### Etape 4 - Authentification de l'API / Authentification - Obtention d'un Token
+### Etape 5 - Authentification de l'API / Authentification - Obtention d'un Token
 Afin d'utiliser l'API locale de la box, il est nécessiare d'authentifier les échanges avec celle-ci.
 Cette sécurisation imposée par Somfy est réalisée en obtenant lors de la phase d'initialisation un Token d'authentification auprès du serveur Somfy.
 Une fois obtenu, ce Token sauvegardé au niveau de la box et du plugin est conservé et utilisé pour authentifier les échanges sur le réseau local.
@@ -75,10 +81,10 @@ La demande de Token ne peut être réalisée qu'après qu'une box ait été sél
 Même si un seul Token est nécessaire, l'API Somfy a prévu la possibilité d'en obtenir plusieurs.
 Le plugin **TaHomaLocal** intègre une fonctionnalité permettant d'obtenir un ou plusieurs Token(s) et de selectionner le Token actif.
 
-### Etape 5 - Import équipements / Import des équipements
+### Etape 6 - Import équipements / Import des équipements
 Au lancement de cette action, le plugin importe les équipement déclarés dans la box et crée les commandes associées à chaque équipement.
 
-### Etape 6 - Utilisation
+### Etape 7 - Utilisation
 La configuration du plugin est terminée. Les commandes disponibles peuvent alors être intégrées, le cas échéant renommées et utilisées au sein de Jeedom.
 
 ## Apps mobiles ou autres
