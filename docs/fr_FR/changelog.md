@@ -4,6 +4,10 @@
 >
 >S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 16/10/2023 - v1.0.3 stable
+- Corrections
+- Ajout équipements en BDD
+
 # 13/10/2023 - v1.0.2 stable
 - Evolutions mineures
 - Ajout équipements en BDD
@@ -22,8 +26,14 @@
 > Alarm
 >- internal:TSKAlarmComponent
 
+> Awning
+>- io:HorizontalAwningIOComponent
+
 > ContactSensor
 >- io:SomfyContactIOSystemSensor
+
+> Light
+>- io:DimmableLightIOComponent
 
 > Pod
 >- internal:PodV2Component
@@ -31,10 +41,13 @@
 
 > ProtocolGateway
 >- io:StackComponent
->- zigbeeTransceiverV3_0:Component
+>- zigbee:TransceiverV3_0Component
 
 > RollerShutter
 >- io:RollerShutterWithLowSpeedManagementIOComponent
+
+> SwingingShutter
+>- io:SwingingShutterSomfyIOComponent
 
 > Wifi
 >- internal:WifiComponent
