@@ -4,6 +4,9 @@
 >
 >S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 17/10/2023 - v1.0.4 stable
+- Ajout équipements en BDD
+
 # 16/10/2023 - v1.0.3 stable
 - Corrections
 - Ajout équipements en BDD
@@ -31,9 +34,22 @@
 
 > ContactSensor
 >- io:SomfyContactIOSystemSensor
+>- zigbee:DoorSensorComponent
+
+> HumiditySensor
+>- zigbee:RelativeHumidityComponent
 
 > Light
 >- io:DimmableLightIOComponent
+
+> LightSensor
+>- io:LightIOSystemSensor
+
+> NetworkComponent
+>- zigbee:ZigbeeNetworkNode
+
+> OccupancySensor
+>- zigbee:MotionSensorComponent
 
 > Pod
 >- internal:PodV2Component
@@ -41,13 +57,30 @@
 
 > ProtocolGateway
 >- io:StackComponent
+>- zigbee:StackV3Component
 >- zigbee:TransceiverV3_0Component
 
+> RemoteController
+>- zigbee:ZigbeeRemoteComponent
+
 > RollerShutter
+>- io:MicroModuleRollerShutterSomfyIOComponent
+>- io:RollerShutterGenericIOComponent
+>- io:RollerShutterVeluxIOComponent
 >- io:RollerShutterWithLowSpeedManagementIOComponent
 
 > SwingingShutter
 >- io:SwingingShutterSomfyIOComponent
 
+> TemperatureSensor
+>- io:TemperatureIOSystemSensor
+>- zigbee:TemperatureSensorComponent
+
+> WaterSensor
+>- zigbee:WaterLeakageSensorComponent
+
 > Wifi
 >- internal:WifiComponent
+
+> Window
+>- io:WindowOpenerVeluxIOComponent
