@@ -4,6 +4,9 @@
 >
 >S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 18/10/2023 - v1.0.4 stable
+- Ajout équipements en BDD
+
 # 17/10/2023 - v1.0.4 stable
 - Ajout équipements en BDD
 
@@ -36,8 +39,25 @@
 >- io:SomfyContactIOSystemSensor
 >- zigbee:DoorSensorComponent
 
+> ElectricitySensor
+>- io:AirConditioningElectricalEnergyConsumptionSensor
+>- io:DHWElectricalEnergyConsumptionSensor
+>- io:ElectricityMeterComponent
+>- io:EnergyConsumptionSensorsConfigurationComponent
+>- io:EnergyConsumptionSensorsHeatPumpComponent
+>- io:HeatingElectricalEnergyConsumptionSensor
+>- io:OtherElectricalEnergyConsumptionSensor
+>- io:PlugsElectricalEnergyConsumptionSensor
+>- io:TotalElectricalEnergyConsumptionIOSystemSensor
+
 > HumiditySensor
 >- zigbee:RelativeHumidityComponent
+
+> GarageDoor
+>- io:DiscreteGarageOpenerIOComponent
+
+> HeatingSystem
+>- io:AtlanticElectricalHeaterIOComponent
 
 > Light
 >- io:DimmableLightIOComponent
@@ -61,12 +81,14 @@
 >- zigbee:TransceiverV3_0Component
 
 > RemoteController
+>- io:KeygoController
 >- zigbee:ZigbeeRemoteComponent
 
 > RollerShutter
 >- io:MicroModuleRollerShutterSomfyIOComponent
 >- io:RollerShutterGenericIOComponent
 >- io:RollerShutterVeluxIOComponent
+>- io:RollerShutterWithBatterySomfyIOComponent
 >- io:RollerShutterWithLowSpeedManagementIOComponent
 
 > SwingingShutter
@@ -75,6 +97,9 @@
 > TemperatureSensor
 >- io:TemperatureIOSystemSensor
 >- zigbee:TemperatureSensorComponent
+
+> WaterHeatingSystem
+>- io:DomesticHotWaterTankComponent
 
 > WaterSensor
 >- zigbee:WaterLeakageSensorComponent
