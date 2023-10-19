@@ -4,6 +4,9 @@
 >
 >S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 19/10/2023 - v1.0.5 stable
+- Corrections
+
 # 18/10/2023 - v1.0.4 stable
 - Ajout équipements en BDD
 
