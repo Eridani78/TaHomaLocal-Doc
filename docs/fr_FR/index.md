@@ -60,6 +60,11 @@ Pour parer à l'éventualité d'un cas de collision avec le port utilisé par un
 #### Mode plugin
 Sélectionner le mode du plugin. "Le mode "Smart" est le mode du plugin par défaut. "Full" est un mode avancé (voir description ci-dessus).
 
+#### Démon
+Ne pas démarrer le Démon manuellement.
+Celui-ci démarrera de lui même et le plugin sera opérationnel au bout de 1 à 2 minutes.
+Pendant cette phase de synchronisation du Démon, certains messages d'erreur peuvent apparaitre et doivent être ignorés.
+
 #### Cron
 Pour un fonctionnement correct du plugin, les crons "cron" et "cron 10" doivent être conservés 'activés'.
 <img src="/docs/assets/images/TaHomaLocal-Configuration_du_plugin-Fonctionnalites.png" alt="" style="height: 50%; width:50%;"/>
@@ -67,9 +72,9 @@ Pour un fonctionnement correct du plugin, les crons "cron" et "cron 10" doivent 
 
 ### Etape 4 - Découverte passerelles / Découverte des Boxs compatibles sur le réseau
 Au lancement de cette action, le plugin scrute le réseau à la recherche d'une ou plusieurs boxs Somfy (ou compatible) qui y seraient connectées.
-Seule la ou les box Somfy ayant l'API locale activée seront reconnues.
+Seule la ou les boxs Somfy ayant l'API locale activée seront reconnues.
 Dans le cas ou plusieurs boxs sont reconnues, Le plugin **TaHomaLocal** permet à l'utilisateur de sélectionner la box qui sera déclarée **passerelle (active)** pour le plugin.
-
+**Sélectionner** la passerelle active en cliquant sur le point puis quitter avec **Sauvegarder**.
 
 ### Etape 5 - Authentification de l'API / Authentification - Obtention d'un Token
 Afin d'utiliser l'API locale de la box, il est nécessiare d'authentifier les échanges avec celle-ci.
