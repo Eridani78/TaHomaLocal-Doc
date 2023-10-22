@@ -4,6 +4,10 @@
 >
 >S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 22/10/2023 - v1.0.6 stable
+- Corrections
+- Ajout équipements en BDD
+
 # 19/10/2023 - v1.0.5 stable
 - Corrections
 
@@ -61,6 +65,7 @@
 
 > HeatingSystem
 >- io:AtlanticElectricalHeaterIOComponent
+>- zigbee:DanfossIconValveComponent
 
 > Light
 >- io:DimmableLightIOComponent
@@ -69,6 +74,7 @@
 >- io:LightIOSystemSensor
 
 > NetworkComponent
+>- io:BeaconIOComponent
 >- zigbee:ZigbeeNetworkNode
 
 > OccupancySensor
