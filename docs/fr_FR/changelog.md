@@ -43,6 +43,7 @@
 
 > Awning
 >- io:HorizontalAwningIOComponent
+>- rts:HorizontalAwningRTSComponent
 
 > ContactSensor
 >- io:SomfyContactIOSystemSensor
@@ -71,6 +72,7 @@
 
 > Light
 >- io:DimmableLightIOComponent
+>- rts:LightRTSComponent
 
 > LightSensor
 >- io:LightIOSystemSensor
@@ -104,6 +106,7 @@
 
 > SwingingShutter
 >- io:SwingingShutterSomfyIOComponent
+>- rts:SwingingShutterRTSComponent
 
 > TemperatureSensor
 >- io:TemperatureIOSystemSensor
