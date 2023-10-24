@@ -4,6 +4,9 @@
 >
 >S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 24/10/2023 - v1.0.7 stable
+- Ajout possibilité (optionnelle) d'entrer l'adresse IPv4 de la box (en cas de pb de DNS)
+
 # 23/10/2023 - v1.0.6 stable
 - Corrections
 - Ajout équipements en BDD
