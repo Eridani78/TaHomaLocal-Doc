@@ -4,6 +4,9 @@
 >
 >S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 26/10/2023 - v1.0.7 stable
+- Ajout équipements en BDD
+
 # 24/10/2023 - v1.0.7 stable
 - Ajout possibilité (optionnelle) d'entrer l'adresse IPv4 de la box (en cas de pb de DNS)
 
@@ -54,6 +57,7 @@
 
 > ElectricitySensor
 >- io:AirConditioningElectricalEnergyConsumptionSensor
+>- io:DHWCumulatedElectricalEnergyConsumptionIOSystemDeviceSensor
 >- io:DHWElectricalEnergyConsumptionSensor
 >- io:ElectricityMeterComponent
 >- io:EnergyConsumptionSensorsConfigurationComponent
@@ -69,12 +73,16 @@
 > GarageDoor
 >- io:DiscreteGarageOpenerIOComponent
 
+> Gate
+>- io:SlidingDiscreteFullyPedestriableGateOpenerIOComponent
+
 > HeatingSystem
 >- io:AtlanticElectricalHeaterIOComponent
 >- zigbee:DanfossIconValveComponent
 
 > Light
 >- io:DimmableLightIOComponent
+>- io:OnOffLightIOComponent
 >- rts:LightRTSComponent
 
 > LightSensor
@@ -86,6 +94,9 @@
 
 > OccupancySensor
 >- zigbee:MotionSensorComponent
+
+> OnOff
+>- io:OnOffIOComponent
 
 > Pod
 >- internal:PodV2Component
@@ -116,6 +127,7 @@
 >- zigbee:TemperatureSensorComponent
 
 > WaterHeatingSystem
+>- io:AtlanticDomesticHotWaterProductionV2_CETHI_V4_IOComponent
 >- io:DomesticHotWaterTankComponent
 
 > WaterSensor
