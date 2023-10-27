@@ -53,17 +53,19 @@ Une fois installé, réaliser les opérations suivantes :
 #### Identifiants
 La configuration du plugin nécessite que l'utilisateur saisisse dans la page **Configuration du plugin** ses identifiants de connection à son compte Somfy (Email & Mot de Passe).
 
-#### Socket Port
-Le plugin utilise une valeur par défaut pour cette donnée et dans la majorité des cas, l'utilisateur n'aura pas à utiliser ce champ. 
-Pour parer à l'éventualité d'un cas de collision avec le port utilisé par un autre plugin, ce champ pourra être utilisé pour changer le numéro de port utilisé par le plugin **TaHomaLocal**.
-
 #### Mode plugin
 Sélectionner le mode du plugin. "Le mode "Smart" est le mode du plugin par défaut. "Full" est un mode avancé (voir description ci-dessus).
+
+#### Adresse IPv4
+Sélectionner le mode du plugin. "Le mode "Smart" est le mode du plugin par défaut. "Full" est un mode avancé (voir description ci-dessus).
+
+#### Socket Port
+Ce champ est a conserver vide et n'est à utiliser temporairement qu'en cas de problème d'accès à la box (problème de DNS par exemple).
 
 #### Démon
 Ne pas démarrer le Démon manuellement.
 Celui-ci démarrera de lui même et le plugin sera opérationnel au bout de 1 à 2 minutes.
-Pendant cette phase de synchronisation du Démon, certains messages d'erreur peuvent apparaitre et doivent être ignorés.
+Pendant cette phase de synchronisation du Démon, certains messages d'erreur pourront apparaitre et peuvent être ignorés.
 
 #### Cron
 Pour un fonctionnement correct du plugin, les crons "cron" et "cron 10" doivent être conservés 'activés'.
