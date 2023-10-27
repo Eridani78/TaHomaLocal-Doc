@@ -1,49 +1,22 @@
-# Changelog plugin TaHomaLocal
+# TaHomaLocal plugin
+# Changelog
 
 >**IMPORTANT**
 >
->S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
+>As a reminder, if there is no information on an update, it means that it only concerns the updating of documentation, translation or text.
 
 # 26/10/2023 - v1.0.7 stable
-- Ajout équipements en BDD
-
-# 24/10/2023 - v1.0.7 stable
-- Ajout possibilité (optionnelle) d'entrer l'adresse IPv4 de la box (en cas de pb de DNS)
-
-# 23/10/2023 - v1.0.6 stable
-- Corrections
-- Ajout équipements en BDD
-- Ajout rubriques
-- Ajout type de box dans panneau de configuration
-
-# 19/10/2023 - v1.0.5 stable
-- Corrections
-
-# 18/10/2023 - v1.0.4 stable
-- Ajout équipements en BDD
-
-# 17/10/2023 - v1.0.4 stable
-- Ajout équipements en BDD
-
-# 16/10/2023 - v1.0.3 stable
-- Corrections
-- Ajout équipements en BDD
-
-# 13/10/2023 - v1.0.2 stable
-- Evolutions mineures
-- Ajout équipements en BDD
-
-# 12/10/2023 - v1.0.1 stable
-- Corrections et évolutions mineures
+- Add equipment in database
+- Add field in Configuration page to enter box IPv4 address (optional) in case of box access issue (DNS issue)
 
 # 11/10/2023 - v1.0.0 stable
-- Edition initiale
+- Initiale version
 
-# 02/10/2023
-- Edition v1.0.0 beta
+# 02/10/2023 - v1.0.0 beta
+- v1.0.0 beta
 
 
-# Equipements en BDD utilisés pour le Mode Smart
+# List of equipments recognized during plugin SMART mode import
 > Alarm
 >- internal:TSKAlarmComponent
 
