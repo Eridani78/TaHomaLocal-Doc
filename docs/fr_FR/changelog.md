@@ -4,6 +4,10 @@
 >
 >S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 28/10/2023 - v1.0.8 stable
+- Ajout une dépendance
+- Ajout icone Gateway
+
 # 26/10/2023 - v1.0.7 stable
 - Ajout équipements en BDD
 
@@ -14,7 +18,7 @@
 - Corrections
 - Ajout équipements en BDD
 - Ajout rubriques
-- Ajout type de box dans panneau de configuration
+- Ajout modèle de box dans panneau de configuration
 
 # 19/10/2023 - v1.0.5 stable
 - Corrections
