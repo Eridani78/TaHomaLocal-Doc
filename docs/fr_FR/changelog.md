@@ -4,6 +4,10 @@
 >
 >S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 30/10/2023 - v1.0.9 stable
+- Ajout icones Devices
+- Ajout équipements en BDD
+
 # 28/10/2023 - v1.0.8 stable
 - Ajout une dépendance
 - Ajout icone Gateway
@@ -113,6 +117,7 @@
 
 > RemoteController
 >- io:KeygoController
+>- io:V500Controller
 >- zigbee:ZigbeeRemoteComponent
 
 > RollerShutter
@@ -121,6 +126,7 @@
 >- io:RollerShutterVeluxIOComponent
 >- io:RollerShutterWithBatterySomfyIOComponent
 >- io:RollerShutterWithLowSpeedManagementIOComponent
+>- rts:RollerShutterRTSComponent
 
 > SwingingShutter
 >- io:SwingingShutterSomfyIOComponent
