@@ -43,6 +43,9 @@ L'activation de l'API locale doit être réalisée pas l'utilisateur de la box T
 Il n'est pas garanti que tous les modèles de box Somfy acceptent l'activation d'un "mode Développeur". Il revient donc à l'utilisateur de s'assurer que son modèle de box Somfy est compatible de ce mode particulier.
 Il est à noter que les conditions générales et règles Somfy pour le "mode Développeur" s'appliquent également au plugin **TaHomaLocal**.
 
+Après activation du "mode Développeur" , il est conseillé d'effectuer un RESET de sa box Somfy pour que l'API Locale soit bien activée au niveau de la box.
+Les modalités du RESET d'une box Somfy sont très bien décrites sur internet.
+
 ### Etape 2 - Installation du plugin
 
 Une fois installé, réaliser les opérations suivantes :
