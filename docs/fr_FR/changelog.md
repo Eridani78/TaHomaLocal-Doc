@@ -4,6 +4,9 @@
 >
 >S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 07/12/2023 - v1.0.11 stable
+- Ajout équipements en BDD
+
 # 01/11/2023 - v1.0.10 stable
 - Corrections : extension manquante pour certains fichiers de la BDD
 - Ajout équipements en BDD
@@ -68,6 +71,9 @@
 >- io:SomfyContactIOSystemSensor
 >- zigbee:DoorSensorComponent
 
+> Dock
+>- internal:TSKDockComponent
+
 > ElectricitySensor
 >- io:AirConditioningElectricalEnergyConsumptionSensor
 >- io:DHWCumulatedElectricalEnergyConsumptionIOSystemDeviceSensor
@@ -80,19 +86,28 @@
 >- io:PlugsElectricalEnergyConsumptionSensor
 >- io:TotalElectricalEnergyConsumptionIOSystemSensor
 
-> HumiditySensor
->- zigbee:RelativeHumidityComponent
+> ExteriorScreen
+>- io:VerticalExteriorAwningIOComponent
+
+> ExteriorVenetianBlind
+>- io:ExteriorVenetianBlindIOComponent
 
 > GarageDoor
 >- io:DiscreteGarageOpenerIOComponent
+>- io:DiscreteGarageOpenerWithPartialPositionIOComponent
 >- io:GarageOpenerIOComponent
+>- rts:GarageDoorRTSComponent
 
 > Gate
 >- io:SlidingDiscreteFullyPedestriableGateOpenerIOComponent
+>- rts:GateOpenerRTS4TComponent
 
 > HeatingSystem
 >- io:AtlanticElectricalHeaterIOComponent
 >- zigbee:DanfossIconValveComponent
+
+> HumiditySensor
+>- zigbee:RelativeHumidityComponent
 
 > Light
 >- io:DimmableLightIOComponent
@@ -107,21 +122,25 @@
 >- zigbee:ZigbeeNetworkNode
 
 > OccupancySensor
+>- io:SomfyOccupancyIOSystemSensor
 >- zigbee:MotionSensorComponent
 
 > OnOff
 >- io:OnOffIOComponent
 
 > Pod
+>- internal:PodMiniComponent
 >- internal:PodV2Component
 >- internal:PodV3Component
 
 > ProtocolGateway
+>- enocean:TransceiverEnoceanComponent
 >- io:StackComponent
 >- zigbee:StackV3Component
 >- zigbee:TransceiverV3_0Component
 
 > RemoteController
+>- io:IORemoteController
 >- io:KeygoController
 >- io:V500Controller
 >- zigbee:ZigbeeRemoteComponent
@@ -133,6 +152,9 @@
 >- io:RollerShutterWithBatterySomfyIOComponent
 >- io:RollerShutterWithLowSpeedManagementIOComponent
 >- rts:RollerShutterRTSComponent
+
+> SmokeSensor
+>- io:SomfySmokeIOSystemSensor
 
 > SwingingShutter
 >- io:SwingingShutterSomfyIOComponent
@@ -154,3 +176,6 @@
 
 > Window
 >- io:WindowOpenerVeluxIOComponent
+
+> WindowHandle
+>- enocean:EnOceanWindowHandle
