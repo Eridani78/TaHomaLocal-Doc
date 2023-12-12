@@ -1,8 +1,15 @@
-# Changelog plugin TaHomaLocal
+# Plugin TaHomaLocal
+# Changelog
+
 
 >**IMPORTANT**
 >
 >S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
+
+# 12/12/2023 - v1.0.12 stable
+- Amelioration processing "Découverte passerelles"
+- Mise a jour banque d'icones
+- Ajout équipements en BDD
 
 # 07/12/2023 - v1.0.11 stable
 - Ajout équipements en BDD
@@ -97,10 +104,14 @@
 >- io:DiscreteGarageOpenerWithPartialPositionIOComponent
 >- io:GarageOpenerIOComponent
 >- rts:GarageDoorRTSComponent
+>- rts:GarageDoor4TRTSComponent
 
 > Gate
 >- io:SlidingDiscreteFullyPedestriableGateOpenerIOComponent
 >- rts:GateOpenerRTS4TComponent
+
+> Generic
+>- rts:Generic4TRTSComponent
 
 > HeatingSystem
 >- io:AtlanticElectricalHeaterIOComponent
@@ -127,6 +138,7 @@
 
 > OnOff
 >- io:OnOffIOComponent
+>- rts:OnOffRTSComponent
 
 > Pod
 >- internal:PodMiniComponent
@@ -152,6 +164,9 @@
 >- io:RollerShutterWithBatterySomfyIOComponent
 >- io:RollerShutterWithLowSpeedManagementIOComponent
 >- rts:RollerShutterRTSComponent
+
+> Siren
+>- io:SomfyIndoorSimpleSirenIOComponent
 
 > SmokeSensor
 >- io:SomfySmokeIOSystemSensor
