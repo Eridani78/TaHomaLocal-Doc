@@ -5,6 +5,16 @@
 >
 >As a reminder, if there is no information on an update, it means that it only concerns the updating of documentation, translation or text.
 
+# 12/17/2023 - v1.0.13 stable
+- Add equipments in database
+
+# 12/16/2023 - v1.0.13 stable
+- Improve processing "Gateway(s) Discovery" (part 2)
+
+# 12/13/2023 - v1.0.12 stable
+- Improve processing "Gateway(s) Discovery" (part 1)
+- Add equipments in database
+
 # 12/07/2023 - v1.0.11 stable
 - Add equipments in database
 
@@ -22,6 +32,7 @@
 # List of equipments recognized during plugin SMART mode import
 > Alarm
 >- internal:TSKAlarmComponent
+>- io:AlarmIOComponent
 
 > Awning
 >- io:HorizontalAwningIOComponent
@@ -57,10 +68,15 @@
 >- io:DiscreteGarageOpenerWithPartialPositionIOComponent
 >- io:GarageOpenerIOComponent
 >- rts:GarageDoorRTSComponent
+>- rts:GarageDoor4TRTSComponent
 
 > Gate
 >- io:SlidingDiscreteFullyPedestriableGateOpenerIOComponent
+>- io:SlidingDiscreteGateOpenerIOComponent
 >- rts:GateOpenerRTS4TComponent
+
+> Generic
+>- rts:Generic4TRTSComponent
 
 > HeatingSystem
 >- io:AtlanticElectricalHeaterIOComponent
@@ -87,6 +103,7 @@
 
 > OnOff
 >- io:OnOffIOComponent
+>- rts:OnOffRTSComponent
 
 > Pod
 >- internal:PodMiniComponent
@@ -112,6 +129,9 @@
 >- io:RollerShutterWithBatterySomfyIOComponent
 >- io:RollerShutterWithLowSpeedManagementIOComponent
 >- rts:RollerShutterRTSComponent
+
+> Siren
+>- io:SomfyIndoorSimpleSirenIOComponent
 
 > SmokeSensor
 >- io:SomfySmokeIOSystemSensor
