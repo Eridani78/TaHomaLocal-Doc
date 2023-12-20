@@ -6,7 +6,7 @@
 The **TaHomaLocal** plugin is intended to enable an interface between Jeedom and a Somfy TaHoma box (or eligible equivalent Somfy box) on which the Somfy local API has been activated.
 
 As a reminder, an API (Application Programming Interface) allows connection between software applications or services in order to exchange data and functionalities.
-Once installed and properly configured, the TaHomaLocal plugin then permits, via the local network to which the box is connected (LAN), the sending of commands and the reading of data from devices coupled to the box and controlled by the latter. The sending and receiving of data is then no longer transmitted and received via the Internet and via a Somfy server. The exchanges remain internal to the local network.
+Once installed and properly configured, the **TaHomaLocal** plugin then permits, via the local network to which the box is connected (LAN), the sending of commands and the reading of data from devices coupled to the box and controlled by the latter. The sending and receiving of data is then no longer transmitted and received via the Internet and via a Somfy server. The exchanges remain internal to the local network.
 This results in 'cloudless' operation which is independent from the Internet and provide for compatible commands, an almost instantaneous status feedback.
 
 
@@ -16,14 +16,15 @@ This means that a TaHoma box can interface and control many devices that are ver
 The lack of documentation from Somfy on the device commands makes the syntax of these operations particularly difficult to anticipate and to implement in a plugin.
 In order to best adapt to such a diversity of potential commands or data, two operating modes of the plugin have been implemented.
 
-Mode **Smart** Mode
+**Smart** Mode
 
 This first mode creates the main commands for a given equipment.
 The choice of the created commands comes from a “Components” database which is enriched as the plugin is deployed.
 For this, the TaHomaLocal plugin integrates a learning method. This method must allow, as far as possible, adaptation of the plugin to the different devices encountered.
 This adaptation is not automatic and may require the transmission by the user of data recorded during plugin initialization.
 During the plugin initialization phase, and if the case arises, unknown equipments will be listed in the resulting table indicating to the user that these new devices are not included in the database.
-It will then be up to the user to transmit via MP, the data files concerning devices not yet known to the plugin so that they can be taken into account and integrated into the plugin component database.
+It will then be up to the user to transmit via PM, the data files concerning devices not yet known to the plugin so that they can be taken into account and integrated into the plugin component database.
+
 No sensitive personal data other than component descriptions is transmitted via this link.
 
 **Full** Mode
@@ -37,7 +38,7 @@ It has also to be noticed, that the parameter syntaxes needed to use certain com
 ## Initialization and implementation steps of the **TaHomaLocal** plugin
 
 ### Step 1 – Enabling local API
-Activation of the local API must be carried out by the user of the TaHoma box
+Activation of the local API must be carried out by the user of the TaHoma box.
 First connect to the Somfy website and navigate to the `My Account` menu. Find the different available options for your TaHoma box and activate `Developer Mode`.
 Activating this mode will enable a local API on your TaHoma box.
 
@@ -142,6 +143,6 @@ In this case, the Daemon will restart automatically after a plugin resynchroniza
 During this time, some commands may no longer be operational.
 
 ## Evolution of Somfy policy
-The Jeedom entity, as well as the designer of the TaHomaLocal plugin, cannot, under any circumstances and in any way, be held responsible for a change in Somfy policy which would lead to:
+The Jeedom entity, as well as the designer of the **TaHomaLocal** plugin, cannot, under any circumstances and in any way, be held responsible for a change in Somfy policy which would lead to:
 -	a significant change in the API rendering the plugin inoperable, or
 -	removal of the access, by Somfy, of the local API as it was defined when designing the plugin.
