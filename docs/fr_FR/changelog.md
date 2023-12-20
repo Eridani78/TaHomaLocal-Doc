@@ -4,7 +4,7 @@
 
 >**IMPORTANT**
 >
->S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
+> S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
 # 20/12/2023 - v1.0.14 stable
 - Amelioration gestion du Daemon lors de la phase de configuration du plugin
