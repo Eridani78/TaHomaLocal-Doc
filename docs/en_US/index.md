@@ -3,7 +3,7 @@
 <img src="/TaHomaLocal-Doc/assets/images/TaHomaLocal-Image.png" alt="TaHomaLocal logo" style="height: 40%; width:40%;"/>
 
 ## Presentation
-The TaHomaLocal plugin is intended to enable an interface between Jeedom and a Somfy TaHoma box (or eligible equivalent Somfy box) on which the Somfy local API has been activated.
+The **TaHomaLocal** plugin is intended to enable an interface between Jeedom and a Somfy TaHoma box (or eligible equivalent Somfy box) on which the Somfy local API has been activated.
 
 As a reminder, an API (Application Programming Interface) allows connection between software applications or services in order to exchange data and functionalities.
 Once installed and properly configured, the TaHomaLocal plugin then permits, via the local network to which the box is connected (LAN), the sending of commands and the reading of data from devices coupled to the box and controlled by the latter. The sending and receiving of data is then no longer transmitted and received via the Internet and via a Somfy server. The exchanges remain internal to the local network.
