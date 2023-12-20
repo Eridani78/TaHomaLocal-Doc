@@ -5,6 +5,9 @@
 >
 >As a reminder, if there is no information on an update, it means that it only concerns the updating of documentation, translation or text.
 
+# 12/20/2023 - v1.0.14 stable
+- Improve Daemon processing during plugin configuration phase
+
 # 12/17/2023 - v1.0.13 stable
 - Add equipments in database
 
