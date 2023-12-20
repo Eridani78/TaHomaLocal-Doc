@@ -15,7 +15,7 @@ Il en résulte un fonctionnement 'cloudless' ou indépendance vis à vis d'Inter
 ## Ecosystème Somfy/TaHoma
 L'écosystème Somfy TaHoma comprend, à ce jour, de nombreux partenaires et est susceptible de continuer à s'étoffer et évoluer.
 Cela signifie qu'une box TaHoma peut s'interfacer à de nombreux dispositifs très différents les uns des autres pour les piloter.
-On trouve actuellement dans l'écosystems Somfy le controle de dispositifs tels que des systèmes de controle d'ouverture ou fermeture d'ouvrants (volets roulants, portes, stores, ...), des systèmes d'alarme, des systèmes de chauffage et climatisation, ...
+On trouve actuellement dans l'écosystèmes Somfy le contrôle de dispositifs tels que des systèmes de controle d'ouverture ou fermeture d'ouvrants (volets roulants, portes, stores, ...), des systèmes d'alarme, des systèmes de chauffage et climatisation, ...
 
 L'absence de documentation de la part de Somfy sur les commandes des dispositifs rend la syntaxe de ces opérations particulièrement difficile à anticiper et implémenter dans un plugin et ce, à priori.
 
@@ -53,17 +53,20 @@ Une fois installé, réaliser les opérations suivantes :
 	- Dans **Dépendances** : Lancer
 
 ### Etape 3 - Configuration / Configuration du plugin
+#### Modèle de box
+Sélectionnez le modèle de votre box Somfy.
+
 #### Identifiants
 La configuration du plugin nécessite que l'utilisateur saisisse dans la page **Configuration du plugin** ses identifiants de connection à son compte Somfy (Email & Mot de Passe).
 
 #### Mode plugin
 Sélectionner le mode du plugin. "Le mode "Smart" est le mode du plugin par défaut. "Full" est un mode avancé (voir description ci-dessus).
 
-#### Adresse IPv4
+#### Adresse IPv4 (optionnel)
 Ce champ est a conserver vide et n'est à utiliser temporairement qu'en cas de problème d'accès à la box (problème de DNS par exemple).
 
-#### Socket Port
-Le plugin utilise une valeur par défaut pour cette donnée et dans la majorité des cas, l'utilisateur n'aura pas à utiliser ce champ. 
+#### Socket Port (optionnel)
+Le plugin utilise une valeur par défaut pour cette donnée et dans la majorité des cas, l'utilisateur n'aura pas à saisir de valeur dans ce champ. 
 Pour parer à l'éventualité d'un cas de collision avec le port utilisé par un autre plugin, ce champ pourra être utilisé pour changer le numéro de port utilisé par le plugin **TaHomaLocal**.
 
 #### Démon
@@ -72,13 +75,13 @@ Celui-ci démarrera de lui même et le plugin sera opérationnel au bout de 1 à
 Pendant cette phase de synchronisation du Démon, certains messages d'erreur pourront apparaitre et peuvent être ignorés.
 
 #### Cron
-Pour un fonctionnement correct du plugin, les crons "cron" et "cron 10" doivent être conservés 'activés'.
-<img src="/docs/assets/images/TaHomaLocal-Configuration_du_plugin-Fonctionnalites.png" alt="" style="height: 50%; width:50%;"/>
-<img src="/TaHomaLocal-Doc/assets/images/TaHomaLocal-Configuration_du_plugin-Fonctionnalites.png" alt="Image Configuration_du_plugin-Fonctionnalites" style="height: 50%; width:50%;"/>
+Pour un fonctionnement correct du plugin, le cron "cron" doit être conservé 'activé'.
+<img src="/docs/assets/images/TaHomaLocal-Plugin_configuration-Fonctionnality-cron.png" alt="" style="height: 50%; width:50%;"/>
+<img src="/TaHomaLocal-Doc/assets/images/TaHomaLocal-Plugin_configuration-Fonctionnality-cron.png" alt="Image TaHomaLocal-Plugin_configuration-Fonctionnality-cron" style="height: 50%; width:50%;"/>
 
 ### Etape 4 - Découverte passerelles / Découverte des Boxs compatibles sur le réseau
 Au lancement de cette action, le plugin scrute le réseau à la recherche d'une ou plusieurs boxs Somfy (ou compatible) qui y seraient connectées.
-Seule la ou les boxs Somfy ayant l'API locale activée seront reconnues.
+La ou les boxs Somfy ayant l'API locale activée sont identifiées dans le tableau.
 Dans le cas ou plusieurs boxs sont reconnues, Le plugin **TaHomaLocal** permet à l'utilisateur de sélectionner la box qui sera déclarée **passerelle (active)** pour le plugin.
 **Sélectionner** la passerelle active en cliquant sur le point puis quitter avec **Sauvegarder**.
 
@@ -91,9 +94,13 @@ Le renouvellement ou l'obtention d'un nouveau Token pourra, dans certaines condi
 La demande de Token ne peut être réalisée qu'après qu'une box ait été sélectionnée **passerelle (active)**.
 Même si un seul Token est nécessaire, l'API Somfy a prévu la possibilité d'en obtenir plusieurs.
 Le plugin **TaHomaLocal** intègre une fonctionnalité permettant d'obtenir un ou plusieurs Token(s) et de selectionner le Token actif.
+Les champs "Token Label" et "Token Scope" sont optionnels et peuvent être laissés vides.
 
 ### Etape 6 - Import équipements / Import des équipements
 Au lancement de cette action, le plugin importe les équipement déclarés dans la box et crée les commandes associées à chaque équipement.
+
+Si des équipements sont listés dans le tableau sous **Composants inconnus découverts**, cela signifie que ces nouveaux équipements ne sont pas encore intégrés dans la Base de Données (BDD) du plugin.
+
 
 ### Etape 7 - Utilisation
 La configuration du plugin est terminée. Les commandes disponibles peuvent alors être intégrées, le cas échéant renommées et utilisées au sein de Jeedom.
