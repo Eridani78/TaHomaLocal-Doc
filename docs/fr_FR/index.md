@@ -86,6 +86,8 @@ Dans le cas ou plusieurs boxs sont reconnues, Le plugin **TaHomaLocal** permet �
 **Sélectionner** la passerelle active en cliquant sur le point puis quitter avec **Sauvegarder**.
 
 ### Etape 5 - Authentification de l'API / Authentification - Obtention d'un Token
+⚠ Cette étape nécessite une connection à Internet.
+
 Afin d'utiliser l'API locale de la box, il est nécessiare d'authentifier les échanges avec celle-ci.
 Cette sécurisation imposée par Somfy est réalisée en obtenant lors de la phase d'initialisation un Token d'authentification auprès du serveur Somfy.
 Une fois obtenu, ce Token sauvegardé au niveau de la box et du plugin est conservé et utilisé pour authentifier les échanges sur le réseau local.
@@ -100,7 +102,21 @@ Les champs "Token Label" et "Token Scope" sont optionnels et peuvent être laiss
 Au lancement de cette action, le plugin importe les équipement déclarés dans la box et crée les commandes associées à chaque équipement.
 
 Si des équipements sont listés dans le tableau sous **Composants inconnus découverts**, cela signifie que ces nouveaux équipements ne sont pas encore intégrés dans la Base de Données (BDD) du plugin.
+Prière de réaliser alors l'opération suivante :
 
+1. En utilisant l'Editeur de Fichiers de Jeedom, se rendre dans le répertoire
+> ```
+> html/plugins/TaHomaLocal/data/components/undefined
+> ```
+Les équipements nouveaux se trouvent dans ce répertoire.
+
+2. Sélectionner le réperoire `undefined`, puis clic droit souris **Créer une archive ZIP**, renommer l'archive obtenue en rajoutant `.txt` à la suite.
+
+3. Fonction **Envoyer les fichiers** (flèche vers le haut du menu de la page) sur votre ordinateur.
+
+4. Envoyer le fichier au concepteur du plugin (** important** en MP pour des aspects de confidentialité).
+
+Les équipements seront intégrés à la BDD du plugin dans les meilleurs délais. 
 
 ### Etape 7 - Utilisation
 La configuration du plugin est terminée. Les commandes disponibles peuvent alors être intégrées, le cas échéant renommées et utilisées au sein de Jeedom.
@@ -121,4 +137,6 @@ Dans ce cas, le Daemon redémarrera automatiquement après un temps de resynchro
 Pendant ce temps, certaines commandes peuvent ne plus être opérantes.
 
 ## Evolution de la politique Somfy
-L'entité Jeedom ainsi que le concepteur du plugin **TaHomaLocal** ne pourront, en aucun cas et d'aucune manière, être tenus responsables d'une évolution de la politique Somfy qui conduirait à une évolution significative de l'API rendant le plugin inopérant ou à la suppression de l'accès, par Somfy, à l'API locale telle qu'elle a été définie lors de la conception du plugin.
+L'entité Jeedom ainsi que le concepteur du plugin **TaHomaLocal** ne pourront, en aucun cas et d'aucune manière, être tenus responsables d'une évolution de la politique Somfy qui conduirait à :
+- une évolution significative de l'API rendant le plugin inopérant, ou
+- à la suppression de l'accès, par Somfy, à l'API locale telle qu'elle a été définie lors de la conception du plugin.
