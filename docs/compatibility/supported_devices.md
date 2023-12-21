@@ -1,132 +1,133 @@
 # TaHomaLocal Plugin
 # SMART Mode supported devices
 
-> Alarm
->- internal:TSKAlarmComponent
->- io:AlarmIOComponent
 
-> Awning
->- io:HorizontalAwningIOComponent
->- rts:HorizontalAwningRTSComponent
+Alarm
+- internal:TSKAlarmComponent
+- io:AlarmIOComponent
 
-> ContactSensor
->- io:SomfyContactIOSystemSensor
->- zigbee:DoorSensorComponent
+Awning
+- io:HorizontalAwningIOComponent
+- rts:HorizontalAwningRTSComponent
 
-> Dock
->- internal:TSKDockComponent
+ContactSensor
+- io:SomfyContactIOSystemSensor
+- zigbee:DoorSensorComponent
 
-> ElectricitySensor
->- io:AirConditioningElectricalEnergyConsumptionSensor
->- io:DHWCumulatedElectricalEnergyConsumptionIOSystemDeviceSensor
->- io:DHWElectricalEnergyConsumptionSensor
->- io:ElectricityMeterComponent
->- io:EnergyConsumptionSensorsConfigurationComponent
->- io:EnergyConsumptionSensorsHeatPumpComponent
->- io:HeatingElectricalEnergyConsumptionSensor
->- io:OtherElectricalEnergyConsumptionSensor
->- io:PlugsElectricalEnergyConsumptionSensor
->- io:TotalElectricalEnergyConsumptionIOSystemSensor
+Dock
+- internal:TSKDockComponent
 
-> ExteriorScreen
->- io:VerticalExteriorAwningIOComponent
+ElectricitySensor
+- io:AirConditioningElectricalEnergyConsumptionSensor
+- io:DHWCumulatedElectricalEnergyConsumptionIOSystemDeviceSensor
+- io:DHWElectricalEnergyConsumptionSensor
+- io:ElectricityMeterComponent
+- io:EnergyConsumptionSensorsConfigurationComponent
+- io:EnergyConsumptionSensorsHeatPumpComponent
+- io:HeatingElectricalEnergyConsumptionSensor
+- io:OtherElectricalEnergyConsumptionSensor
+- io:PlugsElectricalEnergyConsumptionSensor
+- io:TotalElectricalEnergyConsumptionIOSystemSensor
 
-> ExteriorVenetianBlind
->- io:ExteriorVenetianBlindIOComponent
+ExteriorScreen
+- io:VerticalExteriorAwningIOComponent
 
-> GarageDoor
->- io:DiscreteGarageOpenerIOComponent
->- io:DiscreteGarageOpenerWithPartialPositionIOComponent
->- io:GarageOpenerIOComponent
->- rts:GarageDoorRTSComponent
->- rts:GarageDoor4TRTSComponent
+ExteriorVenetianBlind
+- io:ExteriorVenetianBlindIOComponent
 
-> Gate
->- io:SlidingDiscreteFullyPedestriableGateOpenerIOComponent
->- io:SlidingDiscreteGateOpenerIOComponent
->- rts:GateOpenerRTS4TComponent
+GarageDoor
+- io:DiscreteGarageOpenerIOComponent
+- io:DiscreteGarageOpenerWithPartialPositionIOComponent
+- io:GarageOpenerIOComponent
+- rts:GarageDoorRTSComponent
+- rts:GarageDoor4TRTSComponent
 
-> Generic
->- rts:Generic4TRTSComponent
+Gate
+- io:SlidingDiscreteFullyPedestriableGateOpenerIOComponent
+- io:SlidingDiscreteGateOpenerIOComponent
+- rts:GateOpenerRTS4TComponent
 
-> HeatingSystem
->- io:AtlanticElectricalHeaterIOComponent
->- zigbee:DanfossIconValveComponent
+Generic
+- rts:Generic4TRTSComponent
 
-> HumiditySensor
->- zigbee:RelativeHumidityComponent
+HeatingSystem
+- io:AtlanticElectricalHeaterIOComponent
+- zigbee:DanfossIconValveComponent
 
-> Light
->- io:DimmableLightIOComponent
->- io:OnOffLightIOComponent
->- rts:LightRTSComponent
+HumiditySensor
+- zigbee:RelativeHumidityComponent
 
-> LightSensor
->- io:LightIOSystemSensor
+Light
+- io:DimmableLightIOComponent
+- io:OnOffLightIOComponent
+- rts:LightRTSComponent
 
-> NetworkComponent
->- io:BeaconIOComponent
->- zigbee:ZigbeeNetworkNode
+LightSensor
+- io:LightIOSystemSensor
 
-> OccupancySensor
->- io:SomfyOccupancyIOSystemSensor
->- zigbee:MotionSensorComponent
+NetworkComponent
+- io:BeaconIOComponent
+- zigbee:ZigbeeNetworkNode
 
-> OnOff
->- io:OnOffIOComponent
->- rts:OnOffRTSComponent
+OccupancySensor
+- io:SomfyOccupancyIOSystemSensor
+- zigbee:MotionSensorComponent
 
-> Pod
->- internal:PodMiniComponent
->- internal:PodV2Component
->- internal:PodV3Component
+OnOff
+- io:OnOffIOComponent
+- rts:OnOffRTSComponent
 
-> ProtocolGateway
->- enocean:TransceiverEnoceanComponent
->- io:StackComponent
->- zigbee:StackV3Component
->- zigbee:TransceiverV3_0Component
+Pod
+- internal:PodMiniComponent
+- internal:PodV2Component
+- internal:PodV3Component
 
-> RemoteController
->- io:IORemoteController
->- io:KeygoController
->- io:V500Controller
->- zigbee:ZigbeeRemoteComponent
+ProtocolGateway
+- enocean:TransceiverEnoceanComponent
+- io:StackComponent
+- zigbee:StackV3Component
+- zigbee:TransceiverV3_0Component
 
-> RollerShutter
->- io:MicroModuleRollerShutterSomfyIOComponent
->- io:RollerShutterGenericIOComponent
->- io:RollerShutterVeluxIOComponent
->- io:RollerShutterWithBatterySomfyIOComponent
->- io:RollerShutterWithLowSpeedManagementIOComponent
->- rts:RollerShutterRTSComponent
+RemoteController
+- io:IORemoteController
+- io:KeygoController
+- io:V500Controller
+- zigbee:ZigbeeRemoteComponent
 
-> Siren
->- io:SomfyIndoorSimpleSirenIOComponent
+RollerShutter
+- io:MicroModuleRollerShutterSomfyIOComponent
+- io:RollerShutterGenericIOComponent
+- io:RollerShutterVeluxIOComponent
+- io:RollerShutterWithBatterySomfyIOComponent
+- io:RollerShutterWithLowSpeedManagementIOComponent
+- rts:RollerShutterRTSComponent
 
-> SmokeSensor
->- io:SomfySmokeIOSystemSensor
+Siren
+- io:SomfyIndoorSimpleSirenIOComponent
 
-> SwingingShutter
->- io:SwingingShutterSomfyIOComponent
->- rts:SwingingShutterRTSComponent
+SmokeSensor
+- io:SomfySmokeIOSystemSensor
 
-> TemperatureSensor
->- io:TemperatureIOSystemSensor
->- zigbee:TemperatureSensorComponent
+SwingingShutter
+- io:SwingingShutterSomfyIOComponent
+- rts:SwingingShutterRTSComponent
 
-> WaterHeatingSystem
->- io:AtlanticDomesticHotWaterProductionV2_CETHI_V4_IOComponent
->- io:DomesticHotWaterTankComponent
+TemperatureSensor
+- io:TemperatureIOSystemSensor
+- zigbee:TemperatureSensorComponent
 
-> WaterSensor
->- zigbee:WaterLeakageSensorComponent
+WaterHeatingSystem
+- io:AtlanticDomesticHotWaterProductionV2_CETHI_V4_IOComponent
+- io:DomesticHotWaterTankComponent
 
-> Wifi
->- internal:WifiComponent
+WaterSensor
+- zigbee:WaterLeakageSensorComponent
 
-> Window
->- io:WindowOpenerVeluxIOComponent
+Wifi
+- internal:WifiComponent
 
-> WindowHandle
->- enocean:EnOceanWindowHandle
+Window
+- io:WindowOpenerVeluxIOComponent
+
+WindowHandle
+- enocean:EnOceanWindowHandle
