@@ -1,4 +1,3 @@
-
 # TaHomaLocal plugin
 # Changelog
 
