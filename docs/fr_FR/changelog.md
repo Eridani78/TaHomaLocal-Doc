@@ -6,6 +6,11 @@
 >
 > S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 30/12/2023 - v1.0.16 stable
+- Ajout équipements en BDD
+- Mise a jour banque d'icones
+- Correction d'un bug qui entainait un mauvais fonctionnement de l'import en mode SMART
+
 # 20/12/2023 - v1.0.14 stable
 - Amelioration gestion du Daemon lors de la phase de configuration du plugin
 
@@ -118,6 +123,7 @@
 >- rts:GarageDoor4TRTSComponent
 
 > Gate
+>- io:GateOpenerIOComponent
 >- io:SlidingDiscreteFullyPedestriableGateOpenerIOComponent
 >- io:SlidingDiscreteGateOpenerIOComponent
 >- rts:GateOpenerRTS4TComponent
