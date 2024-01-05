@@ -6,10 +6,15 @@
 >
 > S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 05/01/2024 - v1.0.18 beta
+- Amélioration création des commandes info en tenant compte du subtype
+- Amélioration et créations des commandes action à 1 paramètre avec liste des valeurs lorsqu’elles sont définies (connues)
+- Amélioration création et gestion des commandes actions avec création d’une commande info supplémentaire pour les actions nécéssitant 2 paramètres
+
 # 30/12/2023 - v1.0.16 stable
 - Ajout équipements en BDD
 - Mise a jour banque d'icones
-- Correction d'un bug qui entainait un mauvais fonctionnement de l'import en mode SMART
+- Correction d'un bug qui entrainait un mauvais fonctionnement de l'import en mode SMART
 
 # 20/12/2023 - v1.0.14 stable
 - Amelioration gestion du Daemon lors de la phase de configuration du plugin
@@ -123,7 +128,6 @@
 >- rts:GarageDoor4TRTSComponent
 
 > Gate
->- io:GateOpenerIOComponent
 >- io:SlidingDiscreteFullyPedestriableGateOpenerIOComponent
 >- io:SlidingDiscreteGateOpenerIOComponent
 >- rts:GateOpenerRTS4TComponent
