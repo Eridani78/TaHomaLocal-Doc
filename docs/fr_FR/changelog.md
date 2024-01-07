@@ -6,17 +6,16 @@
 >
 > S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
-# 06/01/2024 - v1.0.18 stable
+# 07/01/2024 - v1.0.18 stable
 
 Cette version est une version définitive de l'implémentation COMPLETE de l'API locale SOMFY.
 Tous les équipements (remontés par l'API locale) sont pris en charge et l'ensemble de leurs commandes est rendu accessible.
 Cela comprend les commandes à 0, 1 et 2 paramètres (param2 qu'il soit optionnel ou non).
 
+- Mise a jour structure components
 - Amélioration création des commandes info en tenant compte du subtype
 - Amélioration et créations des commandes action à 1 paramètre avec liste des valeurs lorsqu’elles sont définies (connues)
 - Amélioration création et gestion des commandes actions avec création d’une commande info supplémentaire pour les actions nécéssitant 2 paramètres
-
-
 
 # 30/12/2023 - v1.0.16 stable
 - Ajout équipements en BDD
