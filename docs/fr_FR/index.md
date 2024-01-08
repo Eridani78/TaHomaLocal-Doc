@@ -43,14 +43,23 @@ L'activation de l'API locale doit être réalisée pas l'utilisateur de la box T
 Il n'est pas garanti que tous les modèles de box Somfy acceptent l'activation d'un "mode Développeur". Il revient donc à l'utilisateur de s'assurer que son modèle de box Somfy est compatible de ce mode particulier.
 Il est à noter que les conditions générales et règles Somfy pour le "mode Développeur" s'appliquent également au plugin **TaHomaLocal**.
 
-Après activation du "mode Développeur" , il est conseillé d'effectuer un RESET de sa box Somfy pour que l'API Locale soit bien activée au niveau de la box.
-Les modalités du RESET d'une box Somfy sont très bien décrites sur internet.
+Après activation du "mode Développeur" , il est conseillé d'effectuer une RESYNCHRONISATION de sa box Somfy pour que l'API Locale soit bien activée au niveau de la box.
+Les modalités d'une resynchronisation d'une box Somfy sont très bien décrites sur internet.
 
 ### Etape 2 - Installation du plugin
 
-Une fois installé, réaliser les opérations suivantes :
+⚠ Lors de la phase d'installation et de configuration du plugin, il est recommandé de laisser la case **Fonctionnalités-cron-Activer** NON COCHEE.
+<img src="/TaHomaLocal-Doc/assets/images/TaHomaLocal-Configuration_du_plugin-Fonctionnalites_cron_desactive.png" alt="Image TaHomaLocal-Plugin_configuration-Fonctionnality-cron_disabled" style="height: 50%; width:50%;"/>
+
+
+Une fois le plugin installé, réaliser les opérations suivantes :
 	- Dans **Etat** : Activer
-	- Dans **Dépendances** : Lancer
+	- Dans **Dépendances** : Relancer
+
+#### Logs et surveillance
+Le niveau log doit être conservé sur **Defaut**.
+Les niveaux Info ou Debug peuvent être utilisés pour tracer d'éventuels problèmes.
+
 
 ### Etape 3 - Configuration / Configuration du plugin
 #### Modèle de box
@@ -63,21 +72,19 @@ La configuration du plugin nécessite que l'utilisateur saisisse dans la page **
 Sélectionner le mode du plugin. "Le mode "Smart" est le mode du plugin par défaut. "Full" est un mode avancé (voir description ci-dessus).
 
 #### Adresse IPv4 (optionnel)
-Ce champ est a conserver vide et n'est à utiliser temporairement qu'en cas de problème d'accès à la box (problème de DNS par exemple).
+Ce champ est a conserver **vide**.
+Il n'est à utiliser temporairement qu'en cas de problème d'accès à la box (problème de DNS par exemple).
 
 #### Socket Port (optionnel)
+Ce champ est a conserver **vide**.
 Le plugin utilise une valeur par défaut pour cette donnée et dans la majorité des cas, l'utilisateur n'aura pas à saisir de valeur dans ce champ. 
 Pour parer à l'éventualité d'un cas de collision avec le port utilisé par un autre plugin, ce champ pourra être utilisé pour changer le numéro de port utilisé par le plugin **TaHomaLocal**.
 
 #### Démon
-Ne pas démarrer le Démon manuellement.
+**Ne pas démarrer** le Démon manuellement.
 Celui-ci démarrera de lui même et le plugin sera opérationnel au bout de 1 à 2 minutes.
 Pendant cette phase de synchronisation du Démon, certains messages d'erreur pourront apparaitre et peuvent être ignorés.
 
-#### Cron
-Pour un fonctionnement correct du plugin, le cron "cron" doit être conservé 'activé'.
-<img src="/docs/assets/images/TaHomaLocal-Plugin_configuration-Fonctionnality-cron.png" alt="" style="height: 50%; width:50%;"/>
-<img src="/TaHomaLocal-Doc/assets/images/TaHomaLocal-Plugin_configuration-Fonctionnality-cron.png" alt="Image TaHomaLocal-Plugin_configuration-Fonctionnality-cron" style="height: 50%; width:50%;"/>
 
 ### Etape 4 - Découverte passerelles / Découverte des Boxs compatibles sur le réseau
 Au lancement de cette action, le plugin scrute le réseau à la recherche d'une ou plusieurs boxs Somfy (ou compatible) qui y seraient connectées.
@@ -88,15 +95,16 @@ Dans le cas ou plusieurs boxs sont reconnues, Le plugin **TaHomaLocal** permet �
 ### Etape 5 - Authentification de l'API / Authentification - Obtention d'un Token
 ⚠ Cette étape nécessite une connection à Internet.
 
-Afin d'utiliser l'API locale de la box, il est nécessiare d'authentifier les échanges avec celle-ci.
+Afin d'utiliser l'API locale de la box, il est nécessaire d'authentifier les échanges avec celle-ci.
 Cette sécurisation imposée par Somfy est réalisée en obtenant lors de la phase d'initialisation un Token d'authentification auprès du serveur Somfy.
 Une fois obtenu, ce Token sauvegardé au niveau de la box et du plugin est conservé et utilisé pour authentifier les échanges sur le réseau local.
 Le renouvellement ou l'obtention d'un nouveau Token pourra, dans certaines conditions, être rendu nécessaire, en cas de Reset de la box par exemple.
 
 La demande de Token ne peut être réalisée qu'après qu'une box ait été sélectionnée **passerelle (active)**.
-Même si un seul Token est nécessaire, l'API Somfy a prévu la possibilité d'en obtenir plusieurs.
+Même si un seul Token est nécessaire, l'API Somfy a prévu la possibilité d'en obtenir plusieurs (Gestion multi-Jeedom par exemple).
 Le plugin **TaHomaLocal** intègre une fonctionnalité permettant d'obtenir un ou plusieurs Token(s) et de selectionner le Token actif.
-Les champs "Token Label" et "Token Scope" sont optionnels et peuvent être laissés vides.
+Le champs "Token Label" est optionnel et peut être laissé vide. Sinon, un texte peut être saisi pour personnaliser le nom du Token.
+Le champ "Token Scope" est inopérant à l'heure actuelle.
 
 ### Etape 6 - Import équipements / Import des équipements
 Au lancement de cette action, le plugin importe les équipement déclarés dans la box et crée les commandes associées à chaque équipement.
@@ -118,8 +126,15 @@ Les équipements nouveaux se trouvent dans ce répertoire.
 
 Les équipements seront intégrés à la BDD du plugin dans les meilleurs délais. 
 
+
 ### Etape 7 - Utilisation
-La configuration du plugin est terminée. Les commandes disponibles peuvent alors être intégrées, le cas échéant renommées et utilisées au sein de Jeedom.
+La configuration du plugin est terminée.
+
+⚠ A l'issue de la configuration, retourner dans la page de configuration du plugin et COCHER la case **Fonctionnalités-cron-Activer**.
+<img src="/TaHomaLocal-Doc/assets/images/TaHomaLocal-Configuration_du_plugin-Fonctionnalites_cron_active.png" alt="Image TaHomaLocal-Plugin_configuration-Fonctionnality-cron_enabled" style="height: 50%; width:50%;"/>
+
+
+Les commandes disponibles peuvent alors être intégrées, le cas échéant renommées et utilisées au sein de Jeedom.
 
 ## Apps mobiles ou autres
 Dans la mesure ou elles ne sont pas installées sous Jeedom, l'installation et l'utilisation du plugin **TaHomaLocal** n'a pas d'incidence et n'empêche pas l'utilisation des applications dédiées, fournies par Somfy ou par ses partenaires avec les dispositfs de l'écosystem (apps sur téléphone mobiles par exemple).
