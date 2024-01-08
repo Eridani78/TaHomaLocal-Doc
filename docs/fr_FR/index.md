@@ -48,8 +48,8 @@ Les modalités d'une resynchronisation d'une box Somfy sont très bien décrites
 
 ### Etape 2 - Installation du plugin
 
-⚠ Lors de la phase d'installation et de configuration du plugin, il est recommandé de laisser la case **Fonctionnalités-cron-Activer** NON COCHEE.
-<img src="/docs/assets/images/TaHomaLocal-Configuration_du_plugin-Fonctionnalites_cron_desactive.png" alt="" style="height: 40%; width:40%;"/>
+⚠ Lors de la phase d'installation et de configuration du plugin, il est recommandé de laisser la case **Fonctionnalités-cron-Activer** : NON COCHEE.
+<img src="/docs/assets/images/TaHomaLocal-Configuration_du_plugin-Fonctionnalites_cron_desactive.png" alt="" style="height: 50%; width:50%;"/>
 <img src="/TaHomaLocal-Doc/assets/images/TaHomaLocal-Configuration_du_plugin-Fonctionnalites_cron_desactive.png" alt="Image TaHomaLocal-Plugin_configuration-Fonctionnality-cron_disabled" style="height: 50%; width:50%;"/>
 
 
@@ -131,8 +131,8 @@ Les équipements seront intégrés à la BDD du plugin dans les meilleurs délai
 ### Etape 7 - Utilisation
 La configuration du plugin est terminée.
 
-⚠ A l'issue de la configuration, retourner dans la page de configuration du plugin et COCHER la case **Fonctionnalités-cron-Activer**.
-<img src="/docs/assets/images/TaHomaLocal-Configuration_du_plugin-Fonctionnalites_cron_active.png" alt="" style="height: 40%; width:40%;"/>
+⚠ A l'issue de la configuration, retourner dans la page de configuration du plugin et appliquer la case **Fonctionnalités-cron-Activer** : COCHEE.
+<img src="/docs/assets/images/TaHomaLocal-Configuration_du_plugin-Fonctionnalites_cron_active.png" alt="" style="height: 50%; width:50%;"/>
 <img src="/TaHomaLocal-Doc/assets/images/TaHomaLocal-Configuration_du_plugin-Fonctionnalites_cron_active.png" alt="Image TaHomaLocal-Plugin_configuration-Fonctionnality-cron_enabled" style="height: 50%; width:50%;"/>
 
 
