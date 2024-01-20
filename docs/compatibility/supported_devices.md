@@ -43,8 +43,10 @@ GarageDoor
 - rts:GarageDoor4TRTSComponent
 
 Gate
+- io:GateOpenerIOComponent
 - io:SlidingDiscreteFullyPedestriableGateOpenerIOComponent
 - io:SlidingDiscreteGateOpenerIOComponent
+- rts:GateOpenerRTSComponent
 - rts:GateOpenerRTS4TComponent
 
 Generic
@@ -76,6 +78,9 @@ OccupancySensor
 OnOff
 - io:OnOffIOComponent
 - rts:OnOffRTSComponent
+
+Pergola
+- io:SimpleBioclimaticPergolaIOComponent
 
 Pod
 - internal:PodMiniComponent
