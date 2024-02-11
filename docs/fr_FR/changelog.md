@@ -8,10 +8,10 @@
 
 # 11/02/2024 - v1.0.24 beta & stable
 - Ajout équipements en BDD
-- Amelioration ecriture du code Daemon
+- Amelioration écriture du code Daemon
 
 # 30/01/2024 - v1.0.23 beta & stable
-- Amelioration ecriture du code Daemon
+- Amelioration écriture du code Daemon
 
 # 22/01/2024 - v1.0.22 beta & stable
 - Ajout équipements en BDD
