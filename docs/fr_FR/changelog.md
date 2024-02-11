@@ -6,6 +6,10 @@
 >
 > S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 11/02/2024 - v1.0.24 beta & stable
+- Ajout équipements en BDD
+- Amelioration ecriture du code Daemon
+
 # 30/01/2024 - v1.0.23 beta & stable
 - Amelioration ecriture du code Daemon
 
@@ -214,6 +218,9 @@ Cela comprend les commandes à 0, 1 et 2 paramètres (param2 qu'il soit optionne
 >- io:RollerShutterWithBatterySomfyIOComponent
 >- io:RollerShutterWithLowSpeedManagementIOComponent
 >- rts:RollerShutterRTSComponent
+
+> Screen
+>- io:VerticalInteriorBlindVeluxIOComponent
 
 > Siren
 >- io:SomfyIndoorSimpleSirenIOComponent
