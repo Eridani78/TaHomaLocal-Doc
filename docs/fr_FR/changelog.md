@@ -159,6 +159,7 @@ Cela comprend les commandes à 0, 1 et 2 paramètres (param2 qu'il soit optionne
 >- io:GarageOpenerIOComponent
 >- rts:GarageDoorRTSComponent
 >- rts:GarageDoor4TRTSComponent
+>- rts:GarageDoorWithVentilationPositionRTSComponent
 
 > Gate
 >- io:SlidingDiscreteFullyPedestriableGateOpenerIOComponent
