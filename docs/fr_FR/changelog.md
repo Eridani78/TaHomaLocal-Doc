@@ -6,6 +6,10 @@
 >
 > S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 20/04/2024 - v1.0.26 beta & stable
+- Ajout équipements en BDD
+- Aménagements mineurs pour compatibilité Jeedom v4.4.3
+
 # 17/03/2024 - v1.0.25 beta & stable
 - Ajout équipements en BDD
 - Amelioration écriture du code Daemon
