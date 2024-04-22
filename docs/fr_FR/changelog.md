@@ -182,6 +182,7 @@ Cela comprend les commandes à 0, 1 et 2 paramètres (param2 qu'il soit optionne
 
 > Light
 >- io:DimmableLightIOComponent
+>- io:DimmableRGBLightIOComponent
 >- io:OnOffLightIOComponent
 >- rts:LightRTSComponent
 
