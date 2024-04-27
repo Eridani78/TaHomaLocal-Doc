@@ -6,7 +6,7 @@
 >
 > S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
-# 23/04/2024 - v1.0.26 beta & stable
+# 27/04/2024 - v1.0.26 beta & stable
 - Ajout équipements en BDD
 - Aménagements mineurs pour compatibilité Jeedom v4.4.3
 
@@ -188,6 +188,7 @@ Cela comprend les commandes à 0, 1 et 2 paramètres (param2 qu'il soit optionne
 
 > LightSensor
 >- io:LightIOSystemSensor
+>- io:SunEnergyActuatorSensor
 
 > NetworkComponent
 >- io:BeaconIOComponent
@@ -222,6 +223,7 @@ Cela comprend les commandes à 0, 1 et 2 paramètres (param2 qu'il soit optionne
 >- zigbee:ZigbeeRemoteComponent
 
 > RollerShutter
+>- io:DynamicRollerShutterIOComponent
 >- io:MicroModuleRollerShutterSomfyIOComponent
 >- io:RollerShutterGenericIOComponent
 >- io:RollerShutterVeluxIOComponent
