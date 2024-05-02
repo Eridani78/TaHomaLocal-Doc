@@ -160,6 +160,7 @@ Cela comprend les commandes à 0, 1 et 2 paramètres (param2 qu'il soit optionne
 
 > ExteriorVenetianBlind
 >- io:ExteriorVenetianBlindIOComponent
+>- rts:ExteriorVenetianBlindRTSComponent
 
 > GarageDoor
 >- io:DiscreteGarageOpenerIOComponent
