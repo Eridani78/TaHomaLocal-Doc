@@ -6,8 +6,9 @@
 >
 > S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
-# 30/04/2024 - v1.0.27 beta
-- Evolution code gestion des commandes
+# 02/05/2024 - v1.0.27 beta & stable
+- Ajout équipements en BDD
+- Amelioration code gestion des commandes
 
 # 27/04/2024 - v1.0.26 beta & stable
 - Ajout équipements en BDD
