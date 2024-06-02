@@ -6,6 +6,9 @@
 >
 > S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 02/06/2024 - v1.0.27 beta & stable
+- Ajout équipements en BDD
+- 
 # 15/05/2024 - v1.0.27 beta & stable
 - Ajout équipements en BDD
 
@@ -178,6 +181,7 @@ Cela comprend les commandes à 0, 1 et 2 paramètres (param2 qu'il soit optionne
 >- io:SlidingDiscreteGateOpenerIOComponent
 >- rts:GateOpenerRTS4TComponent
 >- rts:SlidingGateOpenerRTSComponent
+>- rts:SlidingGateOpener4TRTSComponent
 
 > Generic
 >- rts:Generic4TRTSComponent
