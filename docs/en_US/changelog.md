@@ -6,7 +6,7 @@
 >As a reminder, if there is no information on an update, it means that it only concerns the updating of documentation, translation or text.
 
 # 06/10/2024 - v1.0.28 beta & stable
-Add Connexoon in the list of supported gateways
+- Add Connexoon in the list of supported gateways
 
 # ...
 
