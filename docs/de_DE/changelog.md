@@ -6,6 +6,9 @@
 >
 >As a reminder, if there is no information on an update, it means that it only concerns the updating of documentation, translation or text.
 
+# 07/24/2024 - v1.1.1 beta & stable
+- Add IP Mode IP (for particular network configuration)
+
 # 12/20/2023 - v1.0.14 stable
 - Improve Daemon processing during plugin configuration phase
 
