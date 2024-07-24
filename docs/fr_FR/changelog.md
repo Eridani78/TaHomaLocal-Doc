@@ -6,9 +6,9 @@
 >
 > S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
-# 13/07/2024 - v1.1.1 beta
--  Correction erreur clericale dans code
-- Implémentation Mode IP
+# 24/07/2024 - v1.1.1 beta & stable
+- Ajout Mode IP (pour configurations réseau particulières)
+- Correction erreurs dans code
 
 # 02/07/2024 - v1.1.0 beta & stable
 - Evolution gestion Daemon
