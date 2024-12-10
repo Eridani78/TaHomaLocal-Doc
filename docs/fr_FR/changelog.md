@@ -6,6 +6,11 @@
 >
 > S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 10/12/2024 - v2.0.2 beta & stable
+- Ajout équipements en BDD
+    - Light/ 2024 1210 zigbeeColorLightComponent.toml
+    - OnOff/ 2024 1210 zigbeeOnOffComponent.toml
+
 # 22/11/2024 - v2.0.1 beta & stable
 - Bug fixs
 
