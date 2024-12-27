@@ -6,6 +6,11 @@
 >
 > S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 27/12/2024 - v2.1.0 beta & stable
+- Nouvelle version de jeedom.py du plugin-template
+- Ajout équipements en BDD
+    - Light/ 2024 1227 zigbeeOnOffLightComponent.toml
+
 # 10/12/2024 - v2.0.2 beta & stable
 - Ajout équipements en BDD
     - Light/ 2024 1210 zigbeeColorLightComponent.toml
