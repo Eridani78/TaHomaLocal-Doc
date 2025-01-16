@@ -6,6 +6,9 @@
 >
 > S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 16/01/2025 - v2.1.1 beta & stable
+- Améliorations de performances
+
 # 27/12/2024 - v2.1.0 beta & stable
 - Nouvelle version de jeedom.py du plugin-template
 - Ajout équipements en BDD
