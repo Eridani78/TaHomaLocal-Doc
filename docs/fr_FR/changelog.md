@@ -6,6 +6,12 @@
 >
 > S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 02/04/2025 - v2.1.3 beta & stable
+- Ajout équipements en BDD
+    - Gate/ 2025 0402 rtsGateOpenerRTSComponent.toml
+    - RemoteController/ 2025 0402 ioDynamicRemoteController.toml
+    - TemperatureSensor/ 2025 0402 ioTemperatureMeasurementSensor.toml
+
 # 09/02/2025 - v2.1.3 beta & stable
 - Amélioration traitement erreurs
 
