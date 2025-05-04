@@ -1,6 +1,6 @@
 # Plugin **TaHomaLocal**
-<img src="/docs/assets/images/TaHomaLocal-Image.png" alt="" style="height: 40%; width:40%;"/>
-<img src="/TaHomaLocal-Doc/assets/images/TaHomaLocal-Image.png" alt="TaHomaLocal logo" style="height: 40%; width:40%;"/>
+<img src="/docs/assets/images/TaHomaLocal-Image.png" alt="" style="height: 20%; width:20%;"/>
+<img src="/TaHomaLocal-Doc/assets/images/TaHomaLocal-Image.png" alt="TaHomaLocal logo" style="height: 20%; width:20%;"/>
 
 ## Presentation
 Le plugin **TaHomaLocal** est destiné à permettre une interface entre Jeedom et une box Somfy TaHoma (ou box Somfy équivalente éligible) sur laquelle l'API locale Somfy a été activée.
@@ -47,20 +47,13 @@ Après activation du "mode Développeur" , il est conseillé d'effectuer une RES
 Les modalités d'une resynchronisation d'une box Somfy sont très bien décrites sur internet.
 
 ### Etape 2 - Installation du plugin
-
-⚠ Lors de la phase d'installation et de configuration du plugin, il est recommandé de laisser la case **Fonctionnalités-cron-Activer** : NON COCHEE.
-
-<img src="/docs/assets/images/TaHomaLocal-Configuration_du_plugin-Fonctionnalites_cron_desactive.png" alt="" style="height: 50%; width:50%;"/>
-<img src="/TaHomaLocal-Doc/assets/images/TaHomaLocal-Configuration_du_plugin-Fonctionnalites_cron_desactive.png" alt="Image TaHomaLocal-Plugin_configuration-Fonctionnality-cron_disabled" style="height: 50%; width:50%;"/>
-
-
 Une fois le plugin installé, réaliser les opérations suivantes :
 	- Dans **Etat** : Activer
 	- Dans **Dépendances** : Relancer
 
 #### Logs et surveillance
 Le niveau log doit être conservé sur **Defaut**.
-Les niveaux Info ou Debug peuvent être utilisés pour tracer d'éventuels problèmes.
+Les niveaux **Info ou Debug** peuvent être utilisés pour tracer d'éventuels problèmes mais d'une façon temporaire.
 
 
 ### Etape 3 - Configuration / Configuration du plugin
@@ -73,19 +66,20 @@ La configuration du plugin nécessite que l'utilisateur saisisse dans la page **
 #### Mode plugin
 Sélectionner le mode du plugin. "Le mode "Smart" est le mode du plugin par défaut. "Full" est un mode avancé (voir description ci-dessus).
 
-#### Adresse IPv4 (optionnel)
-Ce champ est a conserver **vide**.
-Il n'est à utiliser temporairement qu'en cas de problème d'accès à la box (problème de DNS par exemple).
+#### Mode IP (optionnel)
+En fonctionnement standard, le plugin réalise automatiquement la découverte de la box et de ses paramètres.
+Les accès réseau à la box sont alors réalisés en utilisant son "hostname.local".
+Dans certains cas (problèmes de résolution DNS par exemple) ou certaines configurations réseau, il peut être nécessaire d'utiliser l'adresse IP de la box en remplacement du hostname.
+
+Dans ce cas, cocher la case Mode IP et compléter les champs requis.
+Une fois saisis, les champs spécifiques au Mode IP peuvent être conservés mais ne seront pas utilisés si la case Mode IP n'est pas cochée.
 
 #### Socket Port (optionnel)
 Ce champ est a conserver **vide**.
 Le plugin utilise une valeur par défaut pour cette donnée et dans la majorité des cas, l'utilisateur n'aura pas à saisir de valeur dans ce champ. 
 Pour parer à l'éventualité d'un cas de collision avec le port utilisé par un autre plugin, ce champ pourra être utilisé pour changer le numéro de port utilisé par le plugin **TaHomaLocal**.
 
-#### Démon
-**Ne pas démarrer** le Démon manuellement.
-Celui-ci démarrera de lui même et le plugin sera opérationnel au bout de 1 à 2 minutes.
-Pendant cette phase de synchronisation du Démon, certains messages d'erreur pourront apparaitre et peuvent être ignorés.
+
 
 
 ### Etape 4 - Découverte passerelles / Découverte des Boxs compatibles sur le réseau
@@ -128,16 +122,14 @@ Les équipements nouveaux se trouvent dans ce répertoire.
 
 Les équipements seront intégrés à la BDD du plugin dans les meilleurs délais. 
 
+#### Etape 7 - Démon
+Il est inutile (mais possible) de démarrer le Démon manuellement.
+Celui-ci démarrera de lui même lorsque toutes les conditions auront étét satisfaites.
+Le plugin sera alors opérationnel au bout de 1 à 2 minutes.
+Pendant cette phase de synchronisation du Démon, certains messages d'erreur pourront apparaitre et peuvent être ignorés.
 
-### Etape 7 - Utilisation
+### Etape 8 - Utilisation
 La configuration du plugin est terminée.
-
-⚠ A l'issue de la configuration, retourner dans la page de configuration du plugin et appliquer la case **Fonctionnalités-cron-Activer** : COCHEE.
-
-<img src="/docs/assets/images/TaHomaLocal-Configuration_du_plugin-Fonctionnalites_cron_active.png" alt="" style="height: 50%; width:50%;"/>
-<img src="/TaHomaLocal-Doc/assets/images/TaHomaLocal-Configuration_du_plugin-Fonctionnalites_cron_active.png" alt="Image TaHomaLocal-Plugin_configuration-Fonctionnality-cron_enabled" style="height: 50%; width:50%;"/>
-
-
 Les commandes disponibles peuvent alors être intégrées, le cas échéant renommées et utilisées au sein de Jeedom.
 
 ## Apps mobiles ou autres
