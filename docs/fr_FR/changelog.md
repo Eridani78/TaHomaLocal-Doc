@@ -6,6 +6,10 @@
 >
 > S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 05/07/2025 - v2.1.5 beta & stable
+- Ajout équipements en BDD
+    - ExteriorScreen/ 2025 0705 rtsExteriorBlindRTSComponent.toml
+
 # 10/04/2025 - v2.1.5 beta & stable
 - Amélioration gestion non-réponses épisodiques de la passerelle
 
