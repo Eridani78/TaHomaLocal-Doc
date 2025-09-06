@@ -6,6 +6,9 @@
 >
 > S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 06/09/2025 - v2.1.7 beta & stable
+- Amelioration robustesse Daemon
+
 # 25/08/2025 - v2.1.6 beta & stable
 - Update équipements en BDD
     - RollerShutter/ 2025 0825 ioMicroModuleRollerShutterSomfyIOComponent.toml (update)
