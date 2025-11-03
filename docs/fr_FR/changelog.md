@@ -6,6 +6,11 @@
 >
 > S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 04/11/2025 - v2.1.9 beta & stable
+- Ajout équipements en BDD
+    - ConfigurationComponent/ zigbeeSomfyConfigurationToolComponent.2025 1104.toml
+    - ElectricitySensor/ zigbeeLinkyRadioTransmitterSensorComponent.2025 1104.toml
+
 # 13/09/2025 - v2.1.8 beta & stable
 - Amélioration gestion non-réponses épisodiques de la passerelle
 
