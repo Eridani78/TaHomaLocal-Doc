@@ -6,6 +6,11 @@
 >
 > S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 19/01/2026 - v2.1.9 beta & stable
+- Ajout équipements en BDD
+    - data\components\LightSensor\ioLightSensor.2026 0119.toml
+    - data\components\TemperatureSensor\ioTemperatureSensor.2026 0119.toml
+
 # 04/11/2025 - v2.1.9 beta & stable
 - Ajout équipements en BDD
     - ConfigurationComponent/ zigbeeSomfyConfigurationToolComponent.2025 1104.toml
