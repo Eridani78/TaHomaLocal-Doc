@@ -6,6 +6,10 @@
 >
 > S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 07/04/2026 - v2.2.0 beta & stable
+- Ajout équipements en BDD
+    - data\components\GarageDoor\ioDynamicGarageDoor.2026 0407.toml (new)
+
 # 19/01/2026 - v2.1.9 beta & stable
 - Ajout équipements en BDD
     - data\components\LightSensor\ioLightSensor.2026 0119.toml
