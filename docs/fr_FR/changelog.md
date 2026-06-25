@@ -6,6 +6,9 @@
 >
 > S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+# 25/06/2026 - v2.2.1 beta & stable
+- Amelioration code de découverte des passerelles TaHoma
+
 # 07/04/2026 - v2.2.0 beta & stable
 - Ajout équipements en BDD
     - data\components\GarageDoor\ioDynamicGarageDoor.2026 0407.toml (new)
