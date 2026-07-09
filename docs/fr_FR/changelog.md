@@ -6,6 +6,10 @@
 >
 > S'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte.
 
+
+# 09/07/2026 - v2.2.2 beta & stable
+- Amelioration code
+
 # 25/06/2026 - v2.2.1 beta & stable
 - Amelioration code de découverte des passerelles TaHoma
 
