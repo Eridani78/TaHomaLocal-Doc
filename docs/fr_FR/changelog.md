@@ -9,6 +9,17 @@
 # 19/08/2026 - v2.2.6 beta & stable
 - Amelioration code
 
+# 04/08/2026 - v2.2.5 beta & stable
+- Amelioration code
+
+# 16/07/2026 - v2.2.4 beta & stable
+- Ajout équipements en BDD
+    - data\components\ProtocolGateway\ogpBridge.2026 0716.toml (update)
+- Amelioration code
+
+# 12/07/2026 - v2.2.3 beta & stable
+- Amelioration code
+
 # 09/07/2026 - v2.2.2 beta & stable
 - Amelioration code
 
